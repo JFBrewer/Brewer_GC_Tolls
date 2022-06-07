@@ -1,7 +1,22 @@
 ###### Planeflight.dat Handler Code
-# Created by Jared Brewer for GEOS-Chem
+# This program creates a planeflight.dat.YYYYMMDD for use in GEOS-Chem planeflight input files
+#    Copyright (C) 2022  Jared F. Brewer
+#   This program is free software: you can redistribute it and/or modify
+#   it under the terms of the GNU General Public License as published by
+#   the Free Software Foundation, either version 3 of the License, or
+#   any later version.
+
+#   This program is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+
+#   You should have received a copy of the GNU General Public License
+#   along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+# Created by Jared F. Brewer for GEOS-Chem
 # Last updated 05/05/22 for GEOS-Chem 13.4.0
-# Direct questions to brewe222@umn.edu or brewer.red@gmail.com
+# Direct questions to jfbrewer@alumni.stanford.edu
 
 ##### Source important libraries #####
 library(tidyverse)
